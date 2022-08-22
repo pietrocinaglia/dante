@@ -1,0 +1,13 @@
+Specifications:
+
+# dnet2
+- Nodes: 20
+- Time points: 10
+- Evolution rate: 0.05
+
+# dnet1 ()
+- Nodes: 10
+- Time points: 10
+- Evolution rate: 0.05
+
+(dnet1 is generated starting from dnet2 with a Delta of 0.1)
