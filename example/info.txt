@@ -11,3 +11,5 @@ Specifications:
 - Evolution rate: 0.05
 
 (dnet1 is generated starting from dnet2 with a Delta of 0.1)
+
+The same dynamic networks are also available as 'dnet1.dy' and 'dnet2.dy'; .dy is a file format that is supported in DynaMAGNA++.
