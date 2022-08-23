@@ -6,13 +6,13 @@ We tested DANTE on macOS Monterey (12.4), with CPU Intel.
 <br />
 
 ## Requirements
-DANTE needs Python >= 3.9 and Python Package Installer (pip), as well as the packages reported in 'requirements.txt'. The latter may be installed with the command:
+DANTE needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
 
 ```
 pip3 install -r requirements.txt
 ```
 
-or (alias pip=pip3):
+or (alias: pip=pip3):
 
 ```
 pip install -r requirements.txt
@@ -21,15 +21,17 @@ pip install -r requirements.txt
 <br />
 
 ## Run the example
-You may use the dataset included into this repository, for demonstration purposes only, as follows:
+You may use the dataset included into this repository ('example'), for demonstration purposes only, as follows:
 ```
 .\DANTE example/dnet1/DN1 example/dnet2/DN2 example_alignment
 ```
-The dataset consists of two dynamic networks (dnet1 and dnet2).
+This dataset consists of two dynamic networks (dnet1 and dnet2).
 - dnet1: 10 nodes, 10 time points.
 - dnet2: 20 nodes, 10 time points.
 
-In 'example' the following files are available:
+The command will execute DANTE to produce the alignment ('example_alignment').
+
+Summary:
 - 'example/dnet1': dnet1 (format in DANTE);
 - 'example/dnet2': dnet2 (format in DANTE);
 - 'example/dnet1.dy': dnet1 (format in DynaMAGNA++);
@@ -53,7 +55,7 @@ Run as shell-command:
 ./DANTE arg1 arg2 arg3
 ```
 
-Run CLI:
+Run the CLI:
 ```
 ./DANTE
 ```
