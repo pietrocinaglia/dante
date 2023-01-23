@@ -3,6 +3,23 @@ DANTE (DynAmic Networks alignment based on Temporal Embeddings) is a software to
 
 We tested DANTE on macOS Monterey (12.4), with CPU Intel.
 
+### Cite DANTE (paper)
+P. Cinaglia and M. Cannataro, "Alignment of Dynamic Networks based on Temporal Embeddings", 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Las Vegas, NV, USA, 2022, pp. 2511-2518, doi: 10.1109/BIBM55620.2022.9994863
+
+#### or use the Bibtex format:
+
+@INPROCEEDINGS{Dante2022,
+  author={Cinaglia, Pietro and Cannataro, Mario},
+  booktitle={2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
+  title={Alignment of Dynamic Networks based on Temporal Embeddings}, 
+  year={2022},
+  volume={},
+  number={},
+  pages={2511-2518},
+  doi={10.1109/BIBM55620.2022.9994863}
+}
+
+<br />
 <br />
 
 ## Requirements
