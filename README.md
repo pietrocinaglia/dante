@@ -1,9 +1,9 @@
 # DANTE
-DANTE (DynAmic Networks alignment based on Temporal Embeddings) is a software tool for the alignment of dynamic networks based on temporal embeddings.
+DynAmic Networks alignment based on Temporal Embeddings (DANTEv2) is a software tool for the alignment of dynamic networks based on temporal embedding.
 
-We tested DANTE on macOS Monterey (12.4), with CPU Intel.
+We tested DANTEv2 on macOS Monterey (12.4), with CPU Intel.
 
-### Cite DANTE (paper)
+### Cite DANTE v1 (prototype)
 P. Cinaglia and M. Cannataro, "Alignment of Dynamic Networks based on Temporal Embeddings", 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Las Vegas, NV, USA, 2022, pp. 2511-2518, doi: 10.1109/BIBM55620.2022.9994863
 
 #### or use the Bibtex format:
