@@ -1,20 +1,19 @@
-# DANTE
-DynAmic Networks alignment based on Temporal Embeddings (DANTE version 2, or DANTEv2) is a software tool for the alignment of dynamic networks based on temporal embedding. It is developed based on the method published on the journal paper titled "A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks" (reference is reported below).
+## DynAmic Networks alignment based on Temporal Embeddings (DANTE)
 
-We tested DANTEv2 on macOS Monterey (12.4), with CPU Intel.
+<i>DANTE</i> is a software tool for the alignment of dynamic networks based on temporal embedding.
+
+It was developed based on the method published on the journal paper titled <i>"A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks"</i> (reference is reported below).
+
+We tested <i>DANTE</i> on macOS Monterey (12.4), with CPU Intel.
 
 This is an extension of our preliminary prototype (version 1).
 
-
-### Reference - Cite DANTE
+### Reference - Cite DANTE (version 2, or DANTEv2)
 
 Cinaglia P, Cannataro M. A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks. Entropy. 2023; 25(4):665. https://doi.org/10.3390/e25040665
 
-
 #### Full-Text paper (Open-Access, Free PDF)
-
 https://www.mdpi.com/1099-4300/25/4/665
-
 
 #### Bibtex format:
 
@@ -34,8 +33,8 @@ https://www.mdpi.com/1099-4300/25/4/665
 <br />
 <br />
 
-## Requirements
-DANTE needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
+### Requirements
+<i>DANTE</i> needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
 
 ```
 pip3 install -r requirements.txt
@@ -49,7 +48,7 @@ pip install -r requirements.txt
 
 <br />
 
-## Run the example
+### Run the example
 You may use the dataset included into this repository ('example'), for demonstration purposes only, as follows:
 ```
 .\DANTE example/dnet1/DN1 example/dnet2/DN2 example_alignment
@@ -70,8 +69,8 @@ Summary:
 
 <br />
 
-## Help
-DANTE may be used as shell-command, or through its own Command Line Interface (CLI).
+### Help
+<i>DANTE</i> may be used as shell-command, or through its own Command Line Interface (CLI).
 
 Arguments (arg):
 1) Path of Dynamic Network_1 (G) *
@@ -95,7 +94,7 @@ Data is structured as edge list, one for each time point. To give an example, dn
 
 <br />
 
-## MIT License
+### MIT License
 
 Copyright (c) 2023
 
