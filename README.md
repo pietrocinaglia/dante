@@ -18,17 +18,17 @@ https://www.mdpi.com/1099-4300/25/4/665
 
 #### Bibtex format:
 
-@Article{dante2023,
-    AUTHOR = {Cinaglia, Pietro and Cannataro, Mario},
-    TITLE = {A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks},
-    JOURNAL = {Entropy},
-    VOLUME = {25},
-    YEAR = {2023},
-    NUMBER = {4},
-    ARTICLE-NUMBER = {665},
-    URL = {https://www.mdpi.com/1099-4300/25/4/665},
-    ISSN = {1099-4300},
-    DOI = {10.3390/e25040665}
+@Article{dante2023,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;AUTHOR = {Cinaglia, Pietro and Cannataro, Mario},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TITLE = {A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;JOURNAL = {Entropy},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;VOLUME = {25},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;YEAR = {2023},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;NUMBER = {4},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ARTICLE-NUMBER = {665},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;URL = {https://www.mdpi.com/1099-4300/25/4/665},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ISSN = {1099-4300},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;DOI = {10.3390/e25040665}<br>
 }
 
 <br />
