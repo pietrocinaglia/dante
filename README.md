@@ -1,29 +1,40 @@
-# DANTE
-DynAmic Networks alignment based on Temporal Embeddings (DANTEv2) is a software tool for the alignment of dynamic networks based on temporal embedding.
+## DynAmic Networks alignment based on Temporal Embeddings (DANTE)
 
-We tested DANTEv2 on macOS Monterey (12.4), with CPU Intel.
+<i>DANTE</i> is a software tool for the alignment of dynamic networks based on temporal embedding.
 
-### Cite DANTE v1 (prototype)
-P. Cinaglia and M. Cannataro, "Alignment of Dynamic Networks based on Temporal Embeddings", 2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), Las Vegas, NV, USA, 2022, pp. 2511-2518, doi: 10.1109/BIBM55620.2022.9994863
+It was developed based on the method published on the journal paper titled <i>"A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks"</i> (reference is reported below).
 
-#### or use the Bibtex format:
+We tested <i>DANTE</i> on macOS Monterey (12.4), with CPU Intel.
 
-@INPROCEEDINGS{Dante2022,
-  author={Cinaglia, Pietro and Cannataro, Mario},
-  booktitle={2022 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)}, 
-  title={Alignment of Dynamic Networks based on Temporal Embeddings}, 
-  year={2022},
-  volume={},
-  number={},
-  pages={2511-2518},
-  doi={10.1109/BIBM55620.2022.9994863}
+This is an extension of our preliminary prototype (version 1).
+
+### Reference - Cite DANTE (version 2, or DANTEv2)
+
+Cinaglia P, Cannataro M. A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks. Entropy. 2023; 25(4):665. https://doi.org/10.3390/e25040665
+
+#### Full-Text paper (Open-Access, Free PDF)
+https://www.mdpi.com/1099-4300/25/4/665
+
+#### Bibtex format:
+
+@Article{dante2023,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;AUTHOR = {Cinaglia, Pietro and Cannataro, Mario},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;TITLE = {A Method Based on Temporal Embedding for the Pairwise Alignment of Dynamic Networks},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;JOURNAL = {Entropy},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;VOLUME = {25},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;YEAR = {2023},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;NUMBER = {4},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ARTICLE-NUMBER = {665},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;URL = {https://www.mdpi.com/1099-4300/25/4/665},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;ISSN = {1099-4300},<br>
+&nbsp;&nbsp;&nbsp;&nbsp;DOI = {10.3390/e25040665}<br>
 }
 
 <br />
 <br />
 
-## Requirements
-DANTE needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
+### Requirements
+<i>DANTE</i> needs Python >= 3.9, and the packages listed into 'requirements.txt'. The latter may be installed automatically by using [Python Package Installer (pip)](https://pip.pypa.io/en/stable/):
 
 ```
 pip3 install -r requirements.txt
@@ -37,7 +48,7 @@ pip install -r requirements.txt
 
 <br />
 
-## Run the example
+### Run the example
 You may use the dataset included into this repository ('example'), for demonstration purposes only, as follows:
 ```
 ./DANTE example/dnet1/DN1 example/dnet2/DN2 example_alignment
@@ -58,8 +69,8 @@ Summary:
 
 <br />
 
-## Help
-DANTE may be used as shell-command, or through its own Command Line Interface (CLI).
+### Help
+<i>DANTE</i> may be used as shell-command, or through its own Command Line Interface (CLI).
 
 Arguments (arg):
 1) Path of Dynamic Network_1 (G) *
@@ -83,9 +94,9 @@ Data is structured as edge list, one for each time point. To give an example, dn
 
 <br />
 
-## MIT License
+### MIT License
 
-Copyright (c) 2022
+Copyright (c) 2023
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
