@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ## Run the example
 You may use the dataset included into this repository ('example'), for demonstration purposes only, as follows:
 ```
-.\DANTE example/dnet1/DN1 example/dnet2/DN2 example_alignment
+./DANTE example/dnet1/DN1 example/dnet2/DN2 example_alignment
 ```
 This dataset consists of two dynamic networks (dnet1 and dnet2).
 - dnet1: 10 nodes, 10 time points.
